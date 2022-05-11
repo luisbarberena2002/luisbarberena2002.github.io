@@ -10,26 +10,30 @@
     <link rel="stylesheet" href="/css/style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-</head>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light justify-content-center" id="navbar">
+        <div class="">
+          <header class="header text-focus-in">
             <img src="/assets/green_demon.svg" data-tilt data-tilt-glare data-tilt-max-glare="2.0" data-tilt-scale="1.2" alt="" width="70" height="70">
-          <a class="navbar-brand col-md-8" href="#">Navbar</a>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <a class="navbar-brand col-md-8" href="#">Kiss'n Roses <br></a>
+          <h6 class="by-ruslan">By Ruslan</h6>
+          </header>
+          <div class="collapse navbar-collapse justify-content-start" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item ">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#">Women</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#">Men</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link" href="#">Children</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link dropdown-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown link
+                  Jeans Couture
                 </a>
                 <ul class="dropdown-navbar" aria-labelledby="navbarDropdownMenuLink">
                   <li><a class="dropdown-item" href="#">Action</a></li>
@@ -43,11 +47,98 @@
       </nav>
     
       <section class="cover-section" data-aos="zoom-in" data-aos-duration="1500">
-        <video width="100%" height="30%" playsinline autoplay muted loop rounded float-start>
-            <source src="/assets/cover.mp4" type="video/mp4">
-            </video>
+        <div class="thumbnail">
+        <img class="thumbnail" src="/assets/Group of Girls.jpg" alt="woman group">
+        </div>
       </section>
+    
+      <section class="banner-wrapper" data-aos="zoom-in">
+        <h1>Kiss'n Roses</h1>
+        <div class="banner-body">Kiss'n Roses is compromised to create garments that live long in the memory and are bespoke to the <br>
+          wearer, as much about the emotional experience as the artisanal design.
+        </div>
+        <div class="row banner-btn">
+          <div class="col slide_left button_slide" data-aos="zoom-in" data-aos-duration="500">COLLECTIONS</div>
+          <div class="col slide_left button_slide" data-aos="zoom-in" data-aos-duration="1000">BRIDAL</div>
+          <div class="col slide_left button_slide" data-aos="zoom-in" data-aos-duration="1500">CRAFTMANSHIP</div>
+        </div>
+      </section>
+  
+      <h1 class="carousel-heading">Explore the collections</h1><br><br><br><br>
 
+      <section class="carousel-wrapper">
+        <div class="carousel" data-flickity='{ "groupCells": true }'>
+          <div class="model1">
+          <img class="carousel-cell" src="/assets/model1.jpg">
+          <div class="text-cards">
+          <p>SUMMER - SPRING 2022</p>
+          </div>
+          </div>
+          <div class="model2">
+          <img class="carousel-cell" src="/assets/model2.jpg">
+          <div class="text-cards">
+            <p>SUMMER - SPRING 2022</p>
+            </div>
+          </div>
+          <div class="model3">
+          <img class="carousel-cell" src="/assets/model3.jpg">
+          <div class="text-cards">
+            <p>SUMMER - SPRING 2022</p>
+            </div>
+          </div>
+          <div class="model4">
+          <img class="carousel-cell" src="/assets/model4.jpg">
+          <div class="text-cards">
+            <p>SUMMER - SPRING 2022</p>
+            </div>
+          </div>
+          <div class="model5">
+          <img class="carousel-cell" src="/assets/model5.jpg">
+          <div class="text-cards">
+            <p>SUMMER - SPRING 2022</p>
+            </div>
+          </div>
+          <div class="model6">
+          <img class="carousel-cell" src="/assets/model6.jpg">
+          <div class="text-cards">
+            <p>SUMMER - SPRING 2022</p>
+            </div>
+          </div>
+          <div class="model7">
+          <img class="carousel-cell" src="/assets/model7.jpg">
+          <div class="text-cards">
+            <p>SUMMER - SPRING 2022</p>
+            </div>
+          </div>
+          <div class="model8">
+          <img class="carousel-cell" src="/assets/model8.jpg">
+          <div class="text-cards">
+            <p>SUMMER - SPRING 2022</p>
+            </div>
+          </div>
+          <div class="model9">
+          <img class="carousel-cell" src="/assets/model9.jpg">
+          <div class="text-cards">
+            <p>SUMMER - SPRING 2022</p>
+            </div>
+          </div>
+          <div class="model10">
+          <img class="carousel-cell" src="/assets/model10.jpg">
+          <div class="text-cards">
+            <p>SUMMER - SPRING 2022</p>
+            </div>
+          </div>
+          <div class="model11">
+          <img class="carousel-cell" src="/assets/model11.jpg">
+          <div class="text-cards">
+            <p>SUMMER - SPRING 2022</p>
+            </div>
+          </div>
+        </div>
+
+      </section>
+  
+      <!-- 
       <section>
         <div class="wrapper-card1" data-aos="fade-right">
             <div class="product-img">
@@ -62,7 +153,7 @@
               </div>
               <div class="product-price-btn">
                 <p><span>18</span>$</p>
-                <button type="button" data-tilt>buy now</button>
+                <button class="shadow-lg" type="button" data-tilt data-tilt-glare data-tilt-max-glare="0.8">buy now</button>
               </div>
             </div>
           </div>
@@ -79,15 +170,67 @@
               </div>
               <div class="product-price-btn">
                 <p><span>22</span>$</p>
-                <button type="button" data-tilt>buy now</button>
+                <button class="shadow-lg" type="button" data-tilt data-tilt-glare data-tilt-max-glare="0.8">buy now</button>
               </div>
             </div>
           </div>
       </section>
+      -->
+
+      <section class="banner-2-wrapper">
+        <div class="row col-row">
+          <div class="col image-banner-2 justify-content-center" data-aos="fade-right" data-aos-duration="1000">
+            <img class="image-banner-2 w-100" src="/assets/african-style.jpg" alt="afrincan-style">
+          </div>
+          <div class="col w-50 banner-2-text" data-aos="fade-left" data-aos-duration="1500">
+            <h3> TRENDING "AFRINCAN STYLE" <br> SPRING-SUMMER 2022 </h3>
+            <p>Explore the emblematic styles of the African Style jacket and accessories lines for the new season.</p>
+            <div class="btn-container2">
+            <div class="btn1 align-middle button_slide slide_left">NEW FOR HIM</div>
+            <br><br>
+            <div class="btn2 button_slide slide_left">SHOP AFRICAN STYLE</div>
+          </div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="site-wrapper">
+          <div class="row">
+            <div class="col">
+              <h3>ENTER THE WORLD OF Kiss'n Roses</h3>
+              <p>Hear about exclusive events, collections and news</p>
+              <form action="" class="needs-validation" novalidate>
+              <input type="email" class="form-control email" id="exampleFormControlInput1" placeholder="name@example.com">
+              <button class="btn btn-primary submit" type="submit"> <img class="submit-btn" src="/assets/2849833_arrows_navigation_forward_arrow_right_icon.svg" width="15" height="15" alt=""> </button>
+              </form>
+            </div>
+            <div class="col icon1">
+              <div class="row">
+                <a class="col" href="https://www.facebook.com/profile.php?id=100009408532679"> <img class="icons" src="/assets/5305154_fb_facebook_facebook logo_icon.svg"  width="50" height="50" alt=""></a>
+                <a class="col" href="mailto:luis.glebova6@gmail.com"> <img class="icons" src="/assets/1147408_address book_circle_contacts_email_gmail_icon.svg"  width="50" height="50" alt=""></a>
+                <a class="col" href="https://www.instagram.com/luisglebov/"> <img class="icons" src="/assets/5279112_camera_instagram_social media_instagram logo_icon.svg"  width="50" height="50" alt=""></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom-container">
+          <div class="row">
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+          </div>
+        </div>
+      </footer>
+
+
+      <script src="/src/script.js"></script> 
       <script src="./vanilla-tilt.js"></script> 
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
       <script>
         AOS.init();
-      </script>   
+      </script>
+      <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </body>
 </html>
